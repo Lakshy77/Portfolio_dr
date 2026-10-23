@@ -1,0 +1,24 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local data and instance configuration
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# React
+frontend/node_modules/
+frontend/dist/
+
+# Sensitive files
+*.pem
+*.key
